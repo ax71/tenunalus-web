@@ -1,5 +1,6 @@
 import { Inngest } from "inngest";
-import { connectDB } from "./db";
+import connectDB from "./db";
+import User from "../models/User";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "tenunalus" });
@@ -40,7 +41,7 @@ export const syncUserUpdated = inngest.createFunction(
       imageUrl: image_url,
     };
     await connectDB();
-    await User.findIdAndUpdate(id, userData);
+    await User.findByIdAndUpdate(id, userData);
   }
 );
 
