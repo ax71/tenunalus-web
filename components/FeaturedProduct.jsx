@@ -5,19 +5,19 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    image: assets.girl_with_headphone_image,
+    image: assets.wallet,
     title: "Unparalleled Sound",
     description: "Experience crystal-clear audio with premium headphones.",
   },
   {
     id: 2,
-    image: assets.girl_with_earphone_image,
+    image: assets.wallet,
     title: "Stay Connected",
     description: "Compact and stylish earphones for every occasion.",
   },
   {
     id: 3,
-    image: assets.boy_with_laptop_image,
+    image: assets.wallet,
     title: "Power in Every Pixel",
     description: "Shop the latest laptops for work, gaming, and more.",
   },
