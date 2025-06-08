@@ -22,6 +22,8 @@ import redirect_icon from "./redirect_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
 import wallet from "./wallet.png";
 import wallet_bg from "./Wallet_bg.png";
+import upload_area from "./upload_area.png";
+import checkmark from "./checkmark.png";
 
 export const assets = {
   logoT,
@@ -48,6 +50,8 @@ export const assets = {
   star_dull_icon,
   wallet,
   wallet_bg,
+  upload_area,
+  checkmark,
 };
 
 export const BagIcon = () => {

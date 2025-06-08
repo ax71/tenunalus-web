@@ -9,9 +9,9 @@ const userSchema = new mongoose.Schema(
     imageUrl: { type: String, required: true },
     cartItems: { type: Object, default: {} },
   },
-  { minimize: false }
+  { minimize: false, collection: "users" }
 );
 
-const User = mongoose.models.user || mongoose.model("User", userSchema);
+const User = mongoose.models.users || mongoose.model("users", userSchema);
 
 export default User;
