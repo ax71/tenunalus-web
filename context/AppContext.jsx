@@ -153,6 +153,7 @@ export const AppContextProvider = (props) => {
     userData,
     isSeller,
     cartItems,
+    setCartItems,
     getToken,
     addToCart,
     updateCartQuantity,
