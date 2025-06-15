@@ -1,6 +1,6 @@
-import mangoose from "mongoose";
+import mongoose from "mongoose";
 
-const productSchema = new mangoose.Schema({
+const productSchema = new mongoose.Schema({
   userId: {
     type: String,
     required: true,
@@ -37,6 +37,6 @@ const productSchema = new mangoose.Schema({
 });
 
 const Product =
-  mangoose.models.Product || mangoose.model("Product", productSchema);
+  mongoose.models.Product || mongoose.model("Product", productSchema);
 
 export default Product;

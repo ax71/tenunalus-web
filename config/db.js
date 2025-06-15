@@ -16,7 +16,7 @@ async function connectDB() {
       bufferCommands: false,
     };
     cached.promise = mongoose
-      .connect(process.env.MONGODB_URI, opts)
+      .connect(`${process.env.MONGODB_URI}/tenunalus`, opts)
       .then((mongoose) => {
         return mongoose;
       });

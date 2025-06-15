@@ -1,7 +1,7 @@
 import { Inngest } from "inngest";
 import connectDB from "./db";
-import User from "../models/User";
-import Order from "../models/Order";
+import User from "@/models/User";
+import Order from "@/models/Order";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "tenunalus" });
@@ -74,9 +74,9 @@ export const createUserOrder = inngest.createFunction(
       const orders = events.map((event) => {
         return {
           userId: event.data.userId,
-          products: event.data.items.map(item => ({
+          products: event.data.items.map((item) => ({
             product: item.product,
-            quantity: item.quantity
+            quantity: item.quantity,
           })),
           address: event.data.address,
           amount: event.data.amount,

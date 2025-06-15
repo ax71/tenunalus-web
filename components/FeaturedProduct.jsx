@@ -6,20 +6,23 @@ const products = [
   {
     id: 1,
     image: assets.wallet,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Keindahan Buatan Tangan",
+    description:
+      "Setiap detail ditenun dengan presisi, menghadirkan karya seni yang fungsional dan menawan untuk Anda.",
   },
   {
     id: 2,
     image: assets.wallet,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: " Warisan dalam Genggaman",
+    description:
+      "Bawa serta cerita dan keindahan tradisi tenun Indonesia ke manapun Anda pergi dengan koleksi eksklusif kami.",
   },
   {
     id: 3,
     image: assets.wallet,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Gaya Unik, Setiap Saat",
+    description:
+      "Sempurnakan penampilan Anda dengan aksesoris tenun yang unik untuk setiap momen spesial maupun sehari-hari.",
   },
 ];
 

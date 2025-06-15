@@ -1,6 +1,6 @@
-import mangoose from "mongoose";
+import mongoose from "mongoose";
 
-const addressSchema = new mangoose.Schema({
+const addressSchema = new mongoose.Schema({
   userId: { type: String, required: true },
   fullName: { type: String, required: true },
   phoneNumber: { type: String, required: true },
@@ -11,6 +11,6 @@ const addressSchema = new mangoose.Schema({
 });
 
 const Address =
-  mangoose.models.Address || mangoose.model("Address", addressSchema);
+  mongoose.models.Address || mongoose.model("Address", addressSchema);
 
 export default Address;

@@ -7,8 +7,9 @@ const NewsLetter = () => {
         Subscribe now & get 20% off
       </h1>
       <p className="md:text-base text-gray-500/80 pb-8">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
+        Jadilah yang pertama tahu tentang koleksi terbaru, penawaran eksklusif,
+        dan cerita di balik setiap karya Tenunalus MAURA.dan nikmati diskon
+        20% untuk pembelian pertamamu!
       </p>
       <div className="flex items-center justify-between max-w-2xl w-full md:h-14 h-12">
         <input
