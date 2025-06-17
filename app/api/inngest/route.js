@@ -3,7 +3,7 @@ import {
   inngest,
   syncUserCreated,
   syncUserUpdated,
-  syncUserDeletion,
+  syncUserDeleted,
   createUserOrder,
 } from "@/config/inngest";
 
@@ -12,7 +12,7 @@ export const { GET, POST, PUT } = serve({
   functions: [
     syncUserCreated,
     syncUserUpdated,
-    syncUserDeletion,
+    syncUserDeleted,
     createUserOrder,
   ],
 });
